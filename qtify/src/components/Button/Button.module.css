@@ -1,0 +1,13 @@
+.button {
+    background-color:black ;
+    color: #34c94b;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: "popins", sans-serif;
+    padding: 10px, 16px, 10px, 16px;
+    margin: 14px;
+    /* my extra from figma */
+    Width: 170px;
+    Height: 47px;
+    font-size: larger;
+}
