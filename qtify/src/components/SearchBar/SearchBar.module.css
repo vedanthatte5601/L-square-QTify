@@ -1,20 +1,19 @@
-.container{
+.wrapper{
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 48px;
     justify-content: center; 
-    }
+   }
     .search{
     width: 568px;
-    height: 100%;
-    border: 1px solid  black;
+    height: 40%;
+    border: 1px solid black;
     border-radius: 8px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     padding: 14px 20px;
     }
-    
     .searchButton{
         width: 66px;
         border-radius: 8px;
@@ -23,6 +22,5 @@
         border: 1px solid black;
         height: 100%;
         cursor: pointer;
-        padding: 14px 20px; 
+        padding: 14px 20px;  
     }
-    

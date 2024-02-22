@@ -2,12 +2,19 @@ import React from "react";
 import {ReactComponent as SearchIcon} from  "../../assets/search-icon.svg"
 import styles from "./SearchBar.module.css";
 
-function SearchBar(){
+
+const SearchBar = (props) => {
+
     return (
-        <div className={styles.container}>
-            <input type="search" className={styles.search} placeholder="Enter an album"  />
+        <form className={styles.wrapper}>
+            <input
+                className={styles.search}
+                type="text"
+                placeholder={props.search}
+                value=""
+            />
             <button className={styles.searchButton} type="submit"><SearchIcon /></button>
-        </div>
+        </form>
     );
 }
 
