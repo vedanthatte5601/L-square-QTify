@@ -2,20 +2,20 @@ import React from "react";
 import {ReactComponent as SearchIcon} from  "../../assets/search-icon.svg"
 import styles from "./SearchBar.module.css";
 
+function Search({placeholder, searchData}) {
+    const onSubmit = (e) => {
+        e.preventDefault();
 
-const SearchBar = (props) => {
+    }
 
     return (
-        <form className={styles.wrapper}>
-            <input
-                className={styles.search}
-                type="text"
-                placeholder={props.search}
-                value=""
-            />
-            <button className={styles.searchButton} type="submit"><SearchIcon /></button>
+        <form className={styles.wrapper} onSubmit={onSubmit}>
+            <input className={styles.search} required placeholder={placeholder}/>
+            <button className={styles.searchButton} type="submit">
+                <SearchIcon />   
+            </button>
         </form>
-    );
+    )
 }
 
-export default SearchBar;
+export default Search;

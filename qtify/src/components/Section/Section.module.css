@@ -1,0 +1,54 @@
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    color: white;
+    font-size: 20px;
+}
+
+.toggleText{
+    cursor: pointer;
+    color: #34c94b;
+    
+}
+
+.cardWrapper{
+    margin-top: 18px;
+    
+}
+
+.wrapper{
+    display:flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.filterWrapper{
+    margin-top: 15px;
+} */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .cardWrapper {
+    margin-top: 18px;
+
+  }
+  
+  .wrapper {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .toggleText {
+    cursor: pointer;
+    color: #34c94b;
+  }
+  

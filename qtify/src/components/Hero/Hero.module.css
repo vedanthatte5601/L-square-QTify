@@ -1,13 +1,32 @@
-.hero{
-    background-color: #121212;
-    top: 74;
-    height: 270;
+.heroContainer {
+    width: 100%;
+    height: 270px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 30;
+    justify-content: center;
+    background-color: black;
 }
-.text {
+
+.heroContentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 212px;
+    width: 799px;
+}
+
+.heroLeftContent {
+    text-align: center;
     color: white;
+}
+
+.heroRightContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroIcon {
+    width: 212px;
+    height: 212px;
 }
